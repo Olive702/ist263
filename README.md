@@ -1,1 +1,14 @@
 # istt263
+<!DOCTYPE html>
+<html_lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Olivia Nguyen - Bio</title>
+</head>
+
+<body>
+    My name is Olivia Nguyen. I am a double major as a graphic design major and an IMT major with a web design concentration. I am interested in using my visual skills in graphic design and combining my technical skills in web design to create a variety of websites and designs for those sites. I also currently building a portfolio for all my design work. My skills include illustration, Adobe, and proficiency in Vietnamese. Along with this, my hobbies include drawing, dancing, and playing tennis. I also enjoy watching rom-coms, such as How to Lose a Guy in 10 Days, 10 Things I Hate About You, and 13 Going on 30. 
+</body>
+
+</html_lang>
