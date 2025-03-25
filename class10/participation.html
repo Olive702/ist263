@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Viewpoint" content="width=deivce-width, intial-scale=1.0">
+        <title>Responsive Web Page</title>
+        <style>
+            body {font-family: 'Courier New', Courier, monospace;
+            display: flex
+        }
+        @media (max-width: 800px) {
+            .small {display:none;}
+        }
+        @media (min-width: 800px) {
+            .large {display:none}
+        }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="large"> I'm large </h1>
+        <h2 class="small"> I'm small </h2>
+    </body>
+</html>
