@@ -8,7 +8,7 @@ nav a {color: #a2798f;}
 nav a {padding: 10px}
 nav a {margin-bottom: 30px;}
 nav a {background-color: #d7c6cf;}
-.img1 {float: left; margin-right: 10px}
+.img1 {float: left; margin-right: 10px; max-width: fit-content;}
 .clear {clear: both;}
 span {float: right;}
 
