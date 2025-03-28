@@ -8,7 +8,7 @@ nav a {color: #a2798f;}
 nav a {padding: 10px}
 nav a {margin-bottom: 30px;}
 nav a {background-color: #d7c6cf;}
-.img1 {float: left; margin-right: 10px; max-width: 100%;}
+.img1 {float: left; margin-right: 10px; max-width: 100%; height: auto;}
 .clear {clear: both;}
 span {float: right;}
 
@@ -20,19 +20,24 @@ span {float: right;}
 .art3 {margin: 0.5px}
 .art1 {flex: 2; order: 3; background-color: #F9F2F5; border-radius: 0.5em;}
 .art2 {flex: 1;background-color: #F9F2F5; border-radius: 1em;}
-.art3 {flex: 2; background-color: #F9F2F5;border-radius: 1em;}
+.art3 {flex: 2; background-color: #F9F2F5;border-radius: 1em;
+max-width: 100%;
+height: auto;}
 .art4 {flex: 1; background-color: #F9F2F5; border-radius: 1em;}
 .art5 {flex: 1; background-color: #F9F2F5; border-radius: 0.5em;}
+.art4, .art5 {flex:1;
+min-width: 300px;}
 h1 {text-align: center;}
 
 .Row1 {display: flex; flex-basis: 75%; justify-content: space-around; flex-wrap: wrap; align-items: center;} 
-
 .Help {display: flex; flex-basis: 25%; justify-content: flex-end;}
-
 .Flexbox2 {display: flex}
-
 aside, h2 {background-color: #faf1f0; border-radius: 0.5em; text-align: left; width: 180px}
-
 .intro {max-width: 75%; margin-bottom: 20px; text-align: left;}
-
 .img1, .img2, .img3, .img4, .img5 {height: auto; width: 50%; max-width: 100px;}
+
+.part2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
