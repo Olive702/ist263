@@ -41,3 +41,22 @@ aside, h2 {background-color: #faf1f0; border-radius: 0.5em; text-align: left; wi
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* idk anymore */
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block; 
+        width: 100%; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    nav {
+        text-align: center; 
+    }
+    
+}
