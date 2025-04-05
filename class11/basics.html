@@ -17,10 +17,27 @@
     }
 </script>
 
+<script>
+    function clicky() {
+        alert('Hello World!');
+    }
+    function hovery() {
+        alert('Hello Gays!');
+    }
+    function loady() {
+        alert('Hi Queers!');
+    }
+</script>
+
 <body>
     <p>Content goes here</p>
     <a href="#" onclick="SecondBlock();">Click here.</a>
     <a href="#" onclick="thirdAlert();">Click again.</a>
+    <ul> 
+        <li><a href="a" onclick="clicky();"></a> Here's the click.</li>
+        <li><a href="a" onmouseover="hovery();"></a>Here's the hover.</li>
+        <li><a href="a" onload="loady();"></a>Here's the loady.</li>
+    </ul>
 </body>
 
 </html>
