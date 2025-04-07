@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="witdh=device-width, initaial-scale=1.0">
+        <title>Page</title>
+        <style>
+            a {
+                background-color:coral;
+                padding:15px;
+            }
+            #hamicon {
+                width:40px;
+                display:none;
+            }
+            #close {
+                display:none;
+            }
+            @media only screen and (max-width: 800px) {
+                #hamicon, #close {display: block;}
+                a {display: block;}
+                #navlinks {display:none;}
+            }
+        </style>
+        <script>
+            function showNav () {
+                document.getElementById("navlinks").style.display = "block";
+            }
+            functtion hideNav () {
+                document.getElementById("nvalinks").style.display = "none";
+            }
+        </script>
+    </head>
+
+    <body>
+       <h1>Hamburger Menu Testing</h1>
+       <h2>this is a subhead</h2>
+    </body>
+</html>

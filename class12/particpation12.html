@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="witdh=device-width, initaial-scale=1.0">
+        <title>Syracuse Click Event</title>
+        <style>
+          #school-name {
+            font-size: 2rem;
+            cursor: pointer;
+            color: black;
+          }
+        </style>
+      </head>
+      <body>
+      
+        <div id="school-name">Syracuse University</div>
+      
+        <script>
+          const div = document.getElementById('school-name');
+          div.addEventListener('click', () => {
+            div.textContent = 'Orange Nation';
+            div.style.color = 'orange';
+          });
+        </script>
+      
+      </body>
+      </html>
+      
