@@ -22,17 +22,6 @@
         nav a:first-child {
             border-top: none;
         }
-
-        .carousel {
-            gap: 5px; 
-            padding: 10px;
-            justify-content: flex-start;
-        }
-
-        .carousel img {
-            width: 100px;
-            height: auto;
-        }
     }
     
     body {
@@ -132,11 +121,11 @@
   </div>
 
   <div class="carousel">
-    <img src="../Portfolio1/duo.png" alt="Duolingo Poster" onclick="scrollToSection('duolingo')">
-    <img src="../Portfolio1/typeface.png" alt="Typeface" onclick="scrollToSection('typeface')">
-    <img src="../Portfolio1/BakeryIcons-06.png" alt="Icons" onclick="scrollToSection('icons')">
-    <img src="../Portfolio1/IMG_1216.jpg" alt="Book Covers" onclick="scrollToSection('books')">
-    <img src="../Portfolio1/noodles.png" alt="Ramen Poster" onclick="scrollToSection('ramen')">
+    <img src="../Portfolio1/duo.png" alt="Duolingo Poster">
+    <img src="../Portfolio1/typeface.png" alt="Typeface">
+    <img src="../Portfolio1/BakeryIcons-06.png" alt="Icons">
+    <img src="../Portfolio1/IMG_1216.jpg" alt="Book Covers">
+    <img src="../Portfolio1/noodles.png" alt="Ramen Poster">
   </div>
 
   <div id="duolingo" class="section">
@@ -187,11 +176,5 @@
     &copy; 2025 <hr>
     <span class="motto">Designing Dreams, One Pixel at a Time.</span>
   </div>
-
-  <script>
-    function scrollToSection(id) {
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-  </script>
 </body>
 </html>
