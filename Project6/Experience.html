@@ -65,15 +65,22 @@
         }
 
         .comment-section {
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 20px;
+            background-color: #FFDDDD;
+            padding: 30px 20px;
+            text-align: center;
         }
 
         .comment-section button {
             padding: 8px 16px;
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #333;
+            color: #FFDDDD;
+            border: none;
+            cursor: pointer;
         }
 
         textarea {
@@ -135,11 +142,10 @@
     </div>
 
     <div class="comment-section">
-        <div>
-            <p>Comments/Questions for me?</p>
-            <button>Button</button>
-        </div>
-        <textarea></textarea>
+        <form>
+            <textarea id="questions" name="questions" placeholder="Type here..."></textarea> <br>
+            <input type="submit" value="Send Form">
+        </form>
     </div>
 
     <div class="footer">
