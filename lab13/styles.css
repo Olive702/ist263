@@ -48,10 +48,19 @@ body {
 body {
     color:#4B3832
 }
+
 h1 {
-    color: #4B3832;
-    font-size: 2rem;
+    color: #111111; 
+    font-size: 2.5rem; 
+    font-weight: 700; 
 }
+
+h1 {
+    color: #ffffff;
+}
+
+
+
 nav a:visited {
     color:#4B3832
 }
