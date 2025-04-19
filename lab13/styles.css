@@ -30,8 +30,6 @@
     padding: 10px;
 }
 
-
-
 .skip-link:focus {
     top: 10px; /* Slide down into view */
 }
