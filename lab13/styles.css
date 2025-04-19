@@ -11,6 +11,13 @@
     transition: top 0.3s;
 }
 
+.pen {
+    width: 50px;  
+    height: auto; 
+    display: block;
+    margin: 0 auto 8px auto; 
+}
+
 .skills-grid img {
     width: 50px;  
     height: auto; 
