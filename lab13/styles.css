@@ -61,9 +61,10 @@ nav a:hover {
 h2, h1 {
     background-color: #a2798f;
     font-size: 2rem;
+    color: #4B3832;
 }
 nav a {
-    color:#4B3832
+    color:#4B3832; 
     padding: 10px; 
     margin-bottom: 30px;
     background-color: #d7c6cf;
