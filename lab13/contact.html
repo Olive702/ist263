@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Olivia Nguyen's Personalized Skills</title>
+        <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <nav>
+            <a href="bio.html" tabindex="1">HOME</a> <span>|</span>
+            <a href="contact.html" tabindex="2">CONTACTS</a> <span>|</span>
+            <a href="skills.html" tabindex="3">SKILLS</a> 
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+    <main>
+        <section aria-labelledby="contact-heading">
+            <h1 id="contact-heading">Contact</h1>
+            <address>
+                Olivia Nguyen<br>
+                900 S Crouse Ave, Syracuse, NY 13244
+            </address>
+        </section>
+
+        <section>
+            <h2>LinkedIn</h2>
+            <p>
+                <img src="../images/logo_sized.png" alt="LinkedIn Logo" style="height: 1.5rem; vertical-align: middle;">
+                <a href="https://www.linkedin.com/in/olivia-nguyen-4a40ab326" target="_blank">My LinkedIn Profile</a>
+            </p>
+            <p>
+                <a href="mailto:otnguyen@syr.edu">Olivia Nguyen Email</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1525367589275!2d-76.13336799999999!3d43.038222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fca0f3225%3A0xb7e0bcbf2e1292f6!2sHinds%20Hall%2C%20343%20Hinds%20Hall%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1738191366761!5m2!1sen!2sus" allowfullscreen="" loading="lazy" title="Google Map of Hinds Hall"></iframe>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/xeoezodd" method="POST">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <p>Which skill have you used the most?</p>
+                <input type="radio" id="skill1" name="skill" value="Problem Solving">
+                <label for="skill1">Problem Solving</label><br>
+
+                <input type="radio" id="skill2" name="skill" value="Critical Thinking">
+                <label for="skill2">Critical Thinking</label><br>
+
+                <input type="radio" id="skill3" name="skill" value="Public Speaking">
+                <label for="skill3">Public Speaking</label><br><br>
+
+                <label for="comments">Tips:</label><br>
+                <textarea id="comments" name="tips" rows="5" placeholder="Leave a comment or suggestion..."></textarea><br>
+
+                <input type="submit" value="Send Form">
+            </form>
+        </section>
+    </main>
+</body>
+</html> 
