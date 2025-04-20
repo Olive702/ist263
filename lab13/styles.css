@@ -55,21 +55,15 @@ h1 {
     font-weight: 700; 
 }
 
-h1 {
-    color: #ffffff;
+h1, h2 {
+    background-color: #ffffff;
+    font-size: 2rem;
 }
-
-
 
 nav a:visited {
     color:#4B3832
 }
 
-h2, h1 {
-    background-color: #a2798f;
-    font-size: 2rem;
-    color: #4B3832;
-}
 nav a {
     color:#4B3832; 
     padding: 10px; 
