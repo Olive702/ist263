@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+          .arvo-regular {
+        font-family: "Arvo", serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .arvo-bold {
+        font-family: "Arvo", serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+
+        .arvo-regular-italic {
+        font-family: "Arvo", serif;
+        font-weight: 400;
+        font-style: italic;
+        }
+
+        .arvo-bold-italic {
+        font-family: "Arvo", serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+        nav {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        nav a {
+            display: block;
+            padding: 0.5rem 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a:first-child {
+            border-top: none;
+        }
+
+        .main {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .content {
+            max-width: 90%;
+            padding-top: 20px; 
+        }
+    }
+        body {
+            font-family: "Arvo", serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #FFB0B0;
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: #FFB0B0;
+            text-align: center;
+            padding: 60px 20px;
+            color: #ffffff;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            padding: 40px 20px;
+        }
+
+        .main img {
+            width: 300px;
+            height: 300px;
+            background-color: #ccc;
+            object-fit: cover;
+        }
+
+        .content {
+            max-width: 500px;
+        }
+
+        .content h2 {
+            margin-top: 0;
+        }
+
+        .icon-buttons {
+            margin-top: 20px;
+        }
+
+        .icon-buttons div {
+            margin-bottom: 10px;
+        }
+
+        .comment-section {
+            background-color: #FFDDDD;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        textarea {
+            width: 60%;
+            height: 80px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #333;
+            color: #FFDDDD;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #FFDDDD;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Homepage.html">Bio</a>
+        <a href="Experience.html">Experiences</a>
+        <a href="Portfolio.html">Portfolio</a>
+    </nav>
+
+    <div class="header">
+        <h1>Creativity Meets Purpose.</h1>
+    </div>
+
+    <div class="main img">
+        <img src="../Portfolio1/Me.jpg" alt="Me!">
+
+        <div class="content">
+            <h2>Meet The Designer!</h2>
+            <p>I'm Olivia Nguyen, or "Olive" — a Visual Communication Design student with a keen interest in design and illustration. My expertise encompasses a diverse range of projects, including design icons, websites, book covers, flyers, packaging and many other print or digital materials.</p>
+
+            <p>I am committed to nurturing and growing my creativity, seeing each work as an opportunity to make inspiring creative contributions. I'm always eager to learn, explore new trends and refine my skills. Design isn't just a career path, but one of my dreams. I believe in what Eleanor Roosevelt said, "The future belongs to those who believe in the beauty of their dreams."</p>
+
+            <div class="icon-buttons">
+                <div>📧 Contact Info - 
+                    Email (otnguyen280@gmail.com), Number (7327630111) </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="comment-section">
+        <h3>Questions or Comments for me?</h3>
+        <form>
+            <textarea id="questions" name="questions" placeholder="Type here..."></textarea> <br>
+            <input type="submit" value="Send Form">
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 <hr>
+        <span class="motto">Designing Dreams, One Pixel at a Time.</span>
+    </div>
+
+</body>
+</html>

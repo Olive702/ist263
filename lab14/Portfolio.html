@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+     .arvo-regular {
+        font-family: "Arvo", serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .arvo-bold {
+        font-family: "Arvo", serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+
+        .arvo-regular-italic {
+        font-family: "Arvo", serif;
+        font-weight: 400;
+        font-style: italic;
+        }
+
+        .arvo-bold-italic {
+        font-family: "Arvo", serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+        nav {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        nav a {
+            display: block;
+            padding: 0.5rem 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a:first-child {
+            border-top: none;
+        }
+    }
+    
+    body {
+      font-family: "Arvo", serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+
+    nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: #FFB0B0;
+        font-weight: bold;
+    }
+
+    .header {
+        background-color: #FFB0B0;
+        text-align: center;
+        padding: 60px 20px;
+        color: #ffffff;
+    }
+
+    h1, h2, p {
+      text-align: center;
+    }
+
+    .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 10px 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    .carousel img {
+      width: 200px;
+      height: auto;
+      object-fit: cover;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .footer {
+        background-color: #FFDDDD;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+
+    .image-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .image-text img {
+      width: 200px;
+      height: auto;
+    }
+
+    .image-text p {
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="Homepage.html">Bio</a>
+    <a href="Experience.html">Experiences</a>
+    <a href="Portfolio.html">Portfolio</a>
+  </nav>
+
+  <div class="header">
+    <h1>My Portfolio</h1>
+    <p><strong>Here you'll find relevant images and explanations of my design/artwork.</strong></p>
+  </div>
+
+  <div class="carousel">
+    <img src="../Portfolio1/duo.png" alt="Duolingo Poster">
+    <img src="../Portfolio1/typeface.png" alt="Typeface">
+    <img src="../Portfolio1/BakeryIcons-06.png" alt="Icons">
+    <img src="../Portfolio1/IMG_1216.jpg" alt="Book Covers">
+    <img src="../Portfolio1/noodles.png" alt="Ramen Poster">
+  </div>
+
+  <div id="duolingo" class="section">
+    <h2>Duolingo Poster</h2>
+    <div class="image-text">
+      <img src="../Portfolio1/duo.png" alt="Duolingo Poster">
+      <p>For this design piece I was tasked with creating a poster for either a bus stop or billboard for a current, existing brand. I had to follow the brand guidelines in order to create a poster that the brand would "actually" use. I chose Duolingo because it's an app I use and I love the fun illustrations and mascot.</p>
+    </div>
+  </div>
+
+  <div id="typeface" class="section">
+    <h2>Customized Typeface</h2>
+    <div class="image-text">
+      <img src="../Portfolio1/typeface.png" alt="Typeface">
+      <img src="../Portfolio1/typeface2.png" alt="Panel">
+      <p>I created a typeface for a professor at Syracuse University, Anthony Adornato. Inspired by his TV reporting background and NBC experience, I made a bold, confident, quirky typeface with "star quality." </p>
+    </div>
+  </div>
+
+  <div id="icons" class="section">
+    <h2>Icons</h2>
+    <div class="image-text">
+      <img src="../Portfolio1/BakeryIcons-06.png" alt="Icons">
+      <p>Mockup icons for a bakery menu that aid navigation and visually highlight sections. Each icon represents different menu items or categories, such as the chef’s hat for specials and cake for signature desserts.</p>
+    </div>
+  </div>
+
+  <div id="books" class="section">
+    <h2>Book Covers</h2>
+    <div class="image-text">
+      <img src="../Portfolio1/IMG_1216.jpg" alt="Book Covers">
+      <img src="../Portfolio1/Mock_Up_2.png" alt="Book Covers">
+      <img src="../Portfolio1/Mock_UP.png" alt="Book Covers">
+      <img src="../Portfolio1/Mock_Up_3.png" alt="Book Covers">
+      <p>I created 7 covers for a personal memoir. Each had constraints—like the first allowing only one variable to be changed (color), pushing boundaries while keeping other elements uniform.</p>
+    </div>
+  </div>
+
+  <div id="ramen" class="section">
+    <h2>Ramen Poster</h2>
+    <div class="image-text">
+      <img src="../Portfolio1/noodles.png" alt="Ramen Poster">
+      <p>Creative educational design using ramen packaging steps incorporated into the steam of the ramen illustration—fun and eye-catching, enhancing learning through visual storytelling.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 <hr>
+    <span class="motto">Designing Dreams, One Pixel at a Time.</span>
+  </div>
+</body>
+</html>
