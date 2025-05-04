@@ -35,29 +35,11 @@
         }
     }
 
-    .scroll-top-btn {
-    background-color: #FFB0B0;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-
-  .scroll-top-btn:hover {
-    background-color: #e69c9c;
-  }
-
-
-    
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      overflow-x: hidden;
     }
 
     nav {
@@ -83,11 +65,6 @@
 
     h1, h2, p {
       text-align: center;
-    }
-
-    body {
-        overflow-x: hidden;
-        margin: 0;
     }
 
     .carousel {
@@ -136,6 +113,23 @@
     .image-text p {
       max-width: 400px;
     }
+
+    .scroll-top-btn {
+      background-color: #FFB0B0;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .scroll-top-btn:hover {
+      background-color: #e69c9c;
+    }
   </style>
 </head>
 <body>
@@ -164,10 +158,9 @@
       <img src="../Portfolio1/duo.png" alt="Duolingo Poster">
       <p>For this design piece I was tasked with creating a poster for either a bus stop or billboard for a current, existing brand. I had to follow the brand guidelines in order to create a poster that the brand would "actually" use. I chose Duolingo because it's an app I use and I love the fun illustrations and mascot.</p>
     </div>
-    <div style="text-align: center; margin-top: 10px;">
+    <div style="text-align: center;">
       <button class="scroll-top-btn" onclick="scrollToTop()">↑ Back to Top</button>
-    </div>    
-    </div>    
+    </div>
   </div>
 
   <div id="typeface" class="section">
@@ -177,10 +170,9 @@
       <img src="../Portfolio1/typeface2.png" alt="Panel">
       <p>I created a typeface for a professor at Syracuse University, Anthony Adornato. Inspired by his TV reporting background and NBC experience, I made a bold, confident, quirky typeface with "star quality." </p>
     </div>
-    <div style="text-align: center; margin-top: 10px;">
+    <div style="text-align: center;">
       <button class="scroll-top-btn" onclick="scrollToTop()">↑ Back to Top</button>
     </div>
-    
   </div>
 
   <div id="icons" class="section">
@@ -189,10 +181,9 @@
       <img src="../Portfolio1/BakeryIcons-06.png" alt="Icons">
       <p>Mockup icons for a bakery menu that aid navigation and visually highlight sections. Each icon represents different menu items or categories, such as the chef’s hat for specials and cake for signature desserts.</p>
     </div>
-    <div style="text-align: center; margin-top: 10px;">
+    <div style="text-align: center;">
       <button class="scroll-top-btn" onclick="scrollToTop()">↑ Back to Top</button>
     </div>
-    
   </div>
 
   <div id="books" class="section">
@@ -204,9 +195,9 @@
       <img src="../Portfolio1/Mock_Up_3.png" alt="Book Covers">
       <p>I created 7 covers for a personal memoir. Each had constraints—like the first allowing only one variable to be changed (color), pushing boundaries while keeping other elements uniform.</p>
     </div>
-    <div style="text-align: center; margin-top: 10px;">
+    <div style="text-align: center;">
       <button class="scroll-top-btn" onclick="scrollToTop()">↑ Back to Top</button>
-    </div>    
+    </div>
   </div>
 
   <div id="ramen" class="section">
@@ -215,9 +206,9 @@
       <img src="../Portfolio1/noodles.png" alt="Ramen Poster">
       <p>Creative educational design using ramen packaging steps incorporated into the steam of the ramen illustration—fun and eye-catching, enhancing learning through visual storytelling.</p>
     </div>
-    <div style="text-align: center; margin-top: 10px;">
+    <div style="text-align: center;">
       <button class="scroll-top-btn" onclick="scrollToTop()">↑ Back to Top</button>
-    </div>    
+    </div>
   </div>
 
   <div class="footer">
@@ -229,10 +220,10 @@
     function scrollToSection(id) {
       document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
     }
+
     function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   </script>
-
 </body>
 </html>
